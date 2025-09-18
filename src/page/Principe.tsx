@@ -144,7 +144,7 @@ export default function Principe(): JSX.Element {
             {/* Résidus agricoles */}
             <div className="bg-green-50 rounded-xl shadow-lg p-6 hover:shadow-2xl transition">
               <h3 className="text-xl font-bold text-green-700 mb-2">
-                1.1 - Résidus agricoles
+                Résidus agricoles
               </h3>
               <ul className="list-disc list-inside text-gray-800 font-lato">
                 <li>Rafles de maïs (épis secs après récoltes)</li>
@@ -158,7 +158,7 @@ export default function Principe(): JSX.Element {
             {/* Résidus forestiers */}
             <div className="bg-green-50 rounded-xl shadow-lg p-6 hover:shadow-2xl transition">
               <h3 className="text-xl font-bold text-green-700 mb-2">
-                1.2 - Résidus forestiers
+                Résidus forestiers
               </h3>
               <ul className="list-disc list-inside text-gray-800 font-lato">
                 <li>Sciure de bois</li>
@@ -171,7 +171,7 @@ export default function Principe(): JSX.Element {
             {/* Déchets urbains */}
             <div className="bg-green-50 rounded-xl shadow-lg p-6 hover:shadow-2xl transition">
               <h3 className="text-xl font-bold text-green-700 mb-2">
-                1.3 - Déchets urbains biodégradables
+                Déchets urbains biodégradables
               </h3>
               <ul className="list-disc list-inside text-gray-800 font-lato">
                 <li>Feuilles mortes</li>
@@ -183,7 +183,7 @@ export default function Principe(): JSX.Element {
             {/* Autres matières */}
             <div className="bg-green-50 rounded-xl shadow-lg p-6 hover:shadow-2xl transition">
               <h3 className="text-xl font-bold text-green-700 mb-2">
-                1.4 - Autres matières
+                Autres matières
               </h3>
               <ul className="list-disc list-inside text-gray-800 font-lato">
                 <li>Pelure de fruits (bananes, ananas, …)</li>
@@ -271,7 +271,7 @@ export default function Principe(): JSX.Element {
 
           {/* Types de carbonisation - grille */}
           <h3 className="text-2xl font-bold text-yellow-800 mb-4 drop-shadow-sm">
-            2.1 - Types de carbonisation
+            Types de carbonisation
           </h3>
           <div className="grid md:grid-cols-2 gap-6">
             {/* Carbonisation interne */}
@@ -344,7 +344,7 @@ export default function Principe(): JSX.Element {
           {/* Conditions de carbonisation */}
           <div className="bg-yellow-50 p-6 rounded-2xl shadow-inner border-l-4 border-yellow-500 mt-6">
             <h3 className="text-xl font-bold text-yellow-700 mb-2">
-              2.2 - Conditions nécessaires
+              Conditions nécessaires
             </h3>
             <ul className="list-disc list-inside text-gray-800 font-lato">
               <li>Température : 300°C - 500°C</li>
@@ -404,7 +404,7 @@ export default function Principe(): JSX.Element {
           className="w-24 h-24 object-cover rounded-full shadow-md"
         /> */}
               <h4 className="text-xl font-bold text-yellow-700 mb-2 text-center">
-                3.1 - Le broyage
+                Le broyage
               </h4>
               <p className="text-gray-800 font-lato text-center mb-2">
                 L’objectif est de réduire le charbon en particules fines et
@@ -424,7 +424,7 @@ export default function Principe(): JSX.Element {
           className="w-24 h-24 object-cover rounded-full shadow-md"
         /> */}
               <h4 className="text-xl font-bold text-yellow-700 mb-2 text-center">
-                3.2 - Tamisage
+                Tamisage
               </h4>
               <p className="text-gray-800 font-lato text-center mb-2">
                 Séparer les particules fines utilisables pour le moulage des
@@ -517,7 +517,7 @@ export default function Principe(): JSX.Element {
         {/* Diaporama */}
         <div className="mt-12">
           <h3 className="text-2xl font-bold text-blue-800 mb-4 text-center">
-            Préparation du liant
+            Ajout et préparation du liant
           </h3>
 
           <div className="relative w-full max-w-4xl mx-auto overflow-hidden rounded-xl shadow-2xl">
@@ -585,7 +585,7 @@ export default function Principe(): JSX.Element {
           <div className="grid md:grid-cols-2 gap-8">
             <div className="bg-white rounded-2xl shadow-lg p-6 hover:shadow-2xl transition duration-500 border-l-4 border-yellow-500">
               <h4 className="text-xl font-bold text-yellow-700 mb-2">
-                5.1.1 - Moulage manuel
+                Moulage manuel
               </h4>
               <ul className="list-disc list-inside text-gray-800 font-lato">
                 <li>Matériel utilisé : moule en bois, métal ou plastique</li>
@@ -625,7 +625,7 @@ export default function Principe(): JSX.Element {
           {/* Formes courantes de briquettes */}
           <div className="bg-white rounded-2xl shadow-lg p-6 hover:shadow-2xl transition duration-500">
             <h4 className="text-xl font-bold text-yellow-700 mb-4">
-              5.2 - Formes courantes de briquettes
+              Formes courantes de briquettes
             </h4>
             <div className="grid md:grid-cols-2 gap-6 text-gray-800 font-lato">
               <div>
@@ -697,7 +697,7 @@ export default function Principe(): JSX.Element {
           {/* Objectifs */}
           <div className="bg-white rounded-2xl shadow-lg p-6 hover:shadow-2xl transition duration-500">
             <h4 className="text-xl font-bold text-blue-700 mb-4">
-              6.1 - Objectifs
+              Objectifs
             </h4>
             <ul className="list-disc list-inside text-gray-800 font-lato">
               <li>
@@ -713,7 +713,7 @@ export default function Principe(): JSX.Element {
           {/* Méthodes de séchage */}
           <div className="bg-white rounded-2xl shadow-lg p-6 hover:shadow-2xl transition duration-500">
             <h4 className="text-xl font-bold text-blue-700 mb-4">
-              6.2 - Méthodes de séchage
+              Méthodes de séchage
             </h4>
             <div className="grid md:grid-cols-1 gap-6 text-gray-800 font-lato">
               {/* Séchage naturel */}
