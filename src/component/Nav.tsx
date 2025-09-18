@@ -67,12 +67,12 @@ export default function Menu(): JSX.Element {
                          }`}
             >
               {[
-                { id: "collecte", label: "1 — Collecte" },
-                { id: "carbonisation", label: "2 — Carbonisation" },
-                { id: "broyage", label: "3 — Broyage" },
-                { id: "liant", label: "4 — Liant" },
-                { id: "moulage", label: "5 — Moulage" },
-                { id: "sechage", label: "6 — Séchage" },
+                { id: "collecte", label: "Collecte" },
+                { id: "carbonisation", label: "Carbonisation" },
+                { id: "broyage", label: "Broyage" },
+                { id: "liant", label: "Liant" },
+                { id: "moulage", label: "Moulage" },
+                { id: "sechage", label: "Séchage" },
               ].map((item) => (
                 <li key={item.id}>
                   <button
@@ -126,12 +126,12 @@ export default function Menu(): JSX.Element {
             {principeOpen && (
               <ul className="pl-4 mt-2 flex flex-col gap-1">
                 {[
-                  { id: "collecte", label: "1 - Collecte" },
-                  { id: "carbonisation", label: "2 - Carbonisation" },
-                  { id: "broyage", label: "3 - Broyage" },
-                  { id: "liant", label: "4 - Liant" },
-                  { id: "moulage", label: "5 - Moulage" },
-                  { id: "sechage", label: "6 - Séchage" },
+                  { id: "collecte", label: "Collecte" },
+                  { id: "carbonisation", label: "Carbonisation" },
+                  { id: "broyage", label: "Broyage" },
+                  { id: "liant", label: "Liant" },
+                  { id: "moulage", label: "Moulage" },
+                  { id: "sechage", label: "Séchage" },
                 ].map((item) => (
                   <li key={item.id}>
                     <button
@@ -158,3 +158,4 @@ export default function Menu(): JSX.Element {
     </nav>
   );
 }
+
